@@ -1,0 +1,7 @@
+a.cp{
+    text-decoration: none;
+}
+
+div[class*="wbcp"]+ .clear{
+    clear: both;
+}

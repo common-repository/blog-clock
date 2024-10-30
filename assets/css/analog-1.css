@@ -1,0 +1,21 @@
+.wbcp-layout-2 > div{
+    position: relative;
+}
+
+.wbcp-layout-2 a{
+    position: absolute;
+    height: 15%;
+    bottom: 24%;
+    left: 0;
+    width: 100%;
+}
+.wbcp-layout-2 .container{
+    width:100%;
+    display:inline-block;
+    vertical-align:middle;
+    text-align:center;
+}
+
+.clock{
+    display:inline;
+}
