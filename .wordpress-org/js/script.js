@@ -71,11 +71,10 @@
                 display_shadows: el.data('display_shadows'),
             };
 
-            var interval = (obj.time_format).indexOf('ss') !== -1 ? 10 : 80000;
+            var interval = (obj.time_format).indexOf('SS') !== -1 ? 10 : 80000;
+
             update(obj);
-            setInterval(function(){
-                update(obj)
-            }, interval);
+            setInterval(function(){update(obj)}, interval);
             // analog
             var clock = $('#wbcp-clock-' + obj.id);
             clock.thooClock({
